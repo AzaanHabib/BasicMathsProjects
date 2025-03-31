@@ -15,7 +15,3 @@ def dot_product(v, w):
         for i in range(n):  # for loop iterates over entire length of both vectors
             s += (v[i] * w[i])  # dot product is defined, and each new term is added to s
     return s  # final value of s is returned
-
-
-
-
